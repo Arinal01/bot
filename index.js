@@ -33,7 +33,7 @@ bot.on('ready', () => {
 
 function activity(){
     setTimeout(() => {
-        fivereborn.query("51.81.166.66","9218", (err, data) => { // replace the 'n°1' by your server IP and replace the 'n°2' by the Port of your server
+        fivereborn.query("144.76.57.59","10369", (err, data) => { // replace the 'n°1' by your server IP and replace the 'n°2' by the Port of your server
             if (err) {
                 console.log(err);
             } else {
