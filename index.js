@@ -41,7 +41,7 @@ function activity(){
                 bot.user.setPresence({
                     game: {
                         name: `${data.clients}/${data.maxclients} joueur(s)`, // you can change the joueur for players
-                        type: "STREAMING",
+                        type: "PLAYING",
                         url: "https://www.twitch.tv/alive-korp" // you can change the "alive-korp" by a other tag
                     }
                 });
